@@ -34,9 +34,10 @@ fc-cache -fv
 cp *.otb /usr/share/fonts/
 fc-cache -fv
 dpkg-reconfigure fontconfig
+fc-list | grep otb
 ```
 
 ## 7.效果
 ![image](https://user-images.githubusercontent.com/16433413/118372844-1dae4d80-b5e6-11eb-80c7-b6a8177f1595.png)
 ![image](https://user-images.githubusercontent.com/16433413/118372901-6403ac80-b5e6-11eb-96b7-6593fe5fa3d7.png)
-fc-list | grep otb
+
