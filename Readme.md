@@ -30,9 +30,11 @@ fc-cache -fv
 
 
 ## 6.使用gohufont(12pt,14pt)[https://font.gohu.org/] 点阵作为monospace
+```
 cp *.otb /usr/share/fonts/
 fc-cache -fv
 dpkg-reconfigure fontconfig
+```
 
 ## 7.效果
 ![image](https://user-images.githubusercontent.com/16433413/118372844-1dae4d80-b5e6-11eb-80c7-b6a8177f1595.png)
