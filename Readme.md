@@ -26,6 +26,22 @@ fc-cache -fv
 ## 4.firefox配置简体中文、拉丁字母
 ![image](https://user-images.githubusercontent.com/16433413/118372372-e6d73800-b5e3-11eb-83c0-4dc61099e51b.png)
 ![image](https://user-images.githubusercontent.com/16433413/118372396-fa829e80-b5e3-11eb-8843-180ab4d5fef9.png)
+* about:support about:config
+userChrome.css:
+![图片](https://user-images.githubusercontent.com/16433413/118707206-d70e5c80-b84c-11eb-8f31-0d4bf12cfff8.png)
+![图片](https://user-images.githubusercontent.com/16433413/118707330-f73e1b80-b84c-11eb-8bd3-35c47e84d527.png)
+```
+.tab-text {
+        font-family: "文泉驿正黑"!important;
+          font-size: 14px!important;
+}
+*{
+        font-family: "文泉驿正黑"!important;
+          font-size: 14px!important;
+}
+```
+
+
 ## 5.local.conf可选配置
 
 
