@@ -57,3 +57,6 @@ fc-list | grep otb
 ![image](https://user-images.githubusercontent.com/16433413/118372844-1dae4d80-b5e6-11eb-80c7-b6a8177f1595.png)
 ![image](https://user-images.githubusercontent.com/16433413/118372901-6403ac80-b5e6-11eb-96b7-6593fe5fa3d7.png)
 
+## 8. buchong
+https://www.cnblogs.com/youxia/p/linux004.html#_label2
+
