@@ -60,3 +60,8 @@ fc-list | grep otb
 ## 8. 补充
 https://www.cnblogs.com/youxia/p/linux004.html#_label2
 
+![1631022117(1)](https://user-images.githubusercontent.com/16433413/132355046-be65585d-f803-4297-a345-1aa4302663e2.png)
+这里保持默认字体就好，因为ubuntu里没中文库，会根据配置文件去找wqy字体
+![1631021990(1)](https://user-images.githubusercontent.com/16433413/132354641-2c78b8d7-eb57-4de0-ab69-ac0e2553d5fa.png)
+
+
