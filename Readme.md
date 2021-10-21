@@ -1,4 +1,115 @@
 # 解决Linux低分屏下字体模糊发虚的问题
+
+# latest 
+
+* install necessary fonts
+```
+sudo apt-get install fonts-wqy,ttf-wqy-zenhei ttf-wqy-microhei fonts-arphic-ukai fonts-arphic-uming
+```
+
+ 
+
+* font configuration
+```bash
+git clone https://github.com/czcq/linux-fonts-config
+cd linux-fonts-config
+dpkg -i wqy-bitmapfont-1.0.0-RC1_all.deb # install wqy bitmap song
+cd linux-fonts-config/msfonts/
+double click all ttf files and install # install microsoft Chinese fonts
+sudo apt install ttf-mscorefonts-installer # Times New Roman && Arial
+```
+
+```bash
+
+vim /etc/fonts/fonts.conf
+
+<!--
+  Load local system customization file
+-->
+        <include ignore_missing="yes">/home/yang/linux-fonts-config/conf.d/</include>
+```
+
+* result
+	```bash
+	fc-cache -f -v
+	fc-list | grep wqy
+	fc-match '宋体'
+	fc-match '黑体'
+	fc-match 'serif'
+	fc-match 'sans-serif'
+        ```
+        
+        
+![image](https://user-images.githubusercontent.com/16433413/138245945-a05771c0-83d4-4ef5-aba5-815e4c99cfaf.png)
+
+* note
+	
+        U need choose 'Ubuntu Mono' in terminal font configuration tab
+        ![image](https://user-images.githubusercontent.com/16433413/138246136-1ca0536c-7284-4f1b-9624-1515f49e1286.png)
+
+        
+
+* enjoy it!
+
+
+
+
+
+
+
+--------------------------------------------------------Deprecated---------------------------------------------------------------------------------
+
+
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## 0.打开点阵[https://askubuntu.com/questions/1244175/how-can-i-activate-bitmap-fonts-on-20-04]
 ```
 $ rm /etc/fonts/conf.d/70-no-bitmaps.conf
@@ -65,5 +176,9 @@ https://www.cnblogs.com/youxia/p/linux004.html#_label2
 * 这里保持默认字体就好，因为ubuntu里没中文库，会根据配置文件去找wqy字体
 
 ![1631021990(1)](https://user-images.githubusercontent.com/16433413/132354641-2c78b8d7-eb57-4de0-ab69-ac0e2553d5fa.png)
+
+
+
+
 
 
