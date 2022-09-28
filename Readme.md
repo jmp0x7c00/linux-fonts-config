@@ -42,11 +42,6 @@ vim /etc/fonts/fonts.conf
         
 ![image](https://user-images.githubusercontent.com/16433413/138245945-a05771c0-83d4-4ef5-aba5-815e4c99cfaf.png)
 
-* note
-	
-        U need choose 'Ubuntu Mono' in terminal font configuration tab
-        ![image](https://user-images.githubusercontent.com/16433413/138246136-1ca0536c-7284-4f1b-9624-1515f49e1286.png)
-
 
 
 
