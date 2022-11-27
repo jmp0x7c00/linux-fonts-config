@@ -1,6 +1,7 @@
-# 解决Linux低分屏下字体模糊发虚的问题
+# My Linux Font Configuration
+The chinese font looks fuzzy under default configuration on Linux especially using low-resolution screen. To save this, the key idea is to use bitmap font to render small-size font. In my project, I use `bitmap song`.
 
-# latest 
+## Steps
 
 * install necessary fonts
 ```
